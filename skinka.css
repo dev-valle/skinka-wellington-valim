@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }  
+  
+  :root {
+  font-size: 62.5%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .page {
+    
+    max-width: 38.7rem;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    border-radius: .5rem;
+  }
+  
+  .logo {
+    width: 100%;
+    background: transparent linear-gradient(to right,#5e0056 0%,#a00093 50%,#5e0056 100%) 0% 0% no-repeat padding-box;
+    display: flex;
+    border-radius: 0 0 10rem 10rem;
+    padding: 1rem;
+    
+  }
+  
+  .logo img {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .perfil {
+    display: flex;
+    text-align: center;
+    margin: 2rem auto;
+    justify-content: space-around;
+  }
+  
+  .foto {
+  border: #5e0056 solid .4rem;
+  border-radius: 50%;
+  height: 10.5rem;
+  width: 10.5rem;
+  }
+  
+  
+  .fotoperfil {
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+  padding: .4rem;
+  }
+  
+  .info h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #000000;
+  }
+  
+  .info p {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #000000;
+  }
+  
+  .info a {
+  color: #70026b;
+  }
+  
+  button img {
+  width: 50%;
+  }
+  
+  .button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  }
+  
+  button {
+  width: 15rem;
+  border: none;
+  background-color: #000000;
+    
+  border-radius: 10rem;
+  cursor: pointer;
+  transition: background 500ms;
+    
+  height: 5rem;
+  }
+  
+  button:hover {
+  opacity: 0.9;
+  }
+  
+  .title {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  
+  margin: 4.5rem auto;
+  }
+  
+  .title img {
+    width: 50%;
+    height: 150%;
+  }
+
+  main {
+    margin-bottom: 5rem;
+  }
+  
+  .gridA, .gridB, .gridC, .gridD {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 1.8rem;
+    color: #3b0036;
+  }
+  
+  .card {
+    max-width: 15rem;
+  }
+  
+  .card img {
+    width: 100%;
+    margin-bottom: .8rem;
+  }
+
+  .setas {
+    display: flex;
+  }
+  
+  .voltar {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    justify-content: center;
+    border-radius: 20px;
+    background: #490042;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 30%;
+    margin: 1.5rem auto;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  footer {
+    margin-top: 4rem;
+    font-size: 1.7rem;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 0.8rem 0.8rem 0 0;
+    display: flex;
+    background: #490042b9;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  footer a {
+    margin: 0 auto;
+    width: 70%;
+    height: 50%;
+  }
+  
+  footer a button {
+    width: 15rem;
+    border: none;
+    background-color: #000000a9;
+    color:#c7c7c7;
+    width: 60%;
+  }
+  
+  .credito {
+    font-size: 1.5rem;
+  }
